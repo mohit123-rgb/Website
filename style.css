@@ -1,0 +1,335 @@
+*{
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+}
+
+body {
+
+font-family: 'Segoe UI', sans-serif;
+
+width: 100%;
+
+height:auto;
+
+}
+
+.computer{
+
+background-color:#0000ff ;
+
+width: 100%;
+
+min-height: 100vh;
+
+}
+
+header {
+
+background-color: #064df4;
+
+padding: 0px 30px;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+}
+
+.logo {
+
+display :flex;
+
+}
+
+nav ul {
+
+list-style: none;
+
+display: flex;
+
+gap: 44.5px;
+
+font-size: 19px;
+
+}
+
+nav a {
+
+color: white;
+
+text-decoration: none;
+
+font-weight: 610;
+
+}
+
+.hero {
+
+text-align: center;
+
+padding: 100px 3px;
+
+font-style: bold;
+
+margin: 40Px auto;
+
+max-width: 800px;
+
+border-radius: 10px;
+
+width: 100%;
+
+min-height: 30vh;
+
+}
+
+.hero h1 {
+
+font-size: 75px;
+
+font-family: 'poppins',sans-serif;
+
+margin-bottom: 30px;
+
+color:  white;
+
+}
+
+.hero p {
+
+font-size: 1.49em;
+
+margin-bottom: 35px;
+
+color: white;
+
+}
+
+.btn {
+
+background-color:#198754;
+
+color: white;
+
+padding:13px 55px;
+
+text-decoration: none;
+
+font-weight: bold;
+
+border-radius: 15px;
+
+transition: background-color 0.6s ease;
+
+}
+
+.btn:hover {
+
+background-color: black;
+
+}
+
+.line{
+
+height: 2.5px;
+
+background-color: black;
+
+}
+
+.oll{
+
+background-color: white;
+
+width: 100%;
+
+min-height: 100vh;
+
+margin-bottom: 0;
+
+}
+
+.content{
+
+max-height: 100%;
+
+padding-top: 160px;
+
+}
+
+.content h1 {
+
+font-size: 52px;
+
+text-align: center;
+
+}.content {
+
+transition: all 0.4s ease;
+
+}
+
+.content:hover {
+
+transform: scale(1.05);
+
+}
+
+.content p {
+
+font-size: 25px;
+
+color: black;
+
+display: flex;
+
+text-align: center;
+
+justify-content: center;
+
+}
+
+.steps {
+
+display: flex;
+
+padding-top: 0px;
+
+padding-left: 222px;
+
+justify-items: center;
+
+flex-direction:row;
+
+gap: 28px;
+
+}
+
+.step {
+
+background: #ffffff;
+
+padding: 55px;
+
+margin-top: 55px;
+
+width: 350px;
+
+border-radius: 23px;
+
+box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+
+text-align: center;
+
+}
+
+.step h3 {
+
+margin-bottom: 15px;
+
+text-align: center;
+
+color:black;
+
+}
+
+.step p {
+
+color: #555;
+
+font-size: 18px;
+
+}
+
+.step {
+
+transition: all 0.9s ease;
+
+}
+
+.step:hover {
+
+transform: scale(1.09);
+
+}
+
+.best{
+
+background-color: white;
+
+margin-top: 0;
+
+width: 100%;
+
+min-height: 100vh;
+
+}
+
+.beel{
+
+max-width: 900px;
+
+margin: 70px auto;
+
+background-color: #fff;
+
+padding: 140px;
+
+border-radius: 155px;
+
+box-shadow: 0 0 px rgba(0, 0, 0, 0.1);
+
+text-align: center;
+
+}
+
+.beel h1{
+
+font-size: 46px;
+
+margin-top: 130px;
+
+}
+
+.beel span {
+
+font-size: 1.3em;
+
+margin-bottom:4px;
+
+text-align: center;
+
+color: #272626
+
+}
+
+.hoo{
+
+background-color:#0000ff;
+
+color: white;
+
+padding:15px 50px;
+
+text-decoration: none;
+
+font-weight: bold;
+
+border-radius: 15px;
+
+transition: background-color 0.9s ease;
+
+}
+
+.hoo:hover {
+
+background-color:black;
+
+}
